@@ -122,11 +122,4 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
-STATICFILES_FINDERS = (
-'django.contrib.staticfiles.finders.FileSystemFinder',
-'django.contrib.staticfiles.finders.AppDirectoriesFinder'
-)
-
-STATIC_ROOT= '/opt/socialtune/socialtune/socialtune/static/'
-
 STATIC_URL = '/static/'
