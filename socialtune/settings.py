@@ -127,4 +127,7 @@ STATIC_ROOT= '/opt/socialtune/socialtune/socialtune/static/'
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (normpath(join(BASE_DIR, 'static')))
+STATICFILES_DIR = (
+    os.path.join(BASE_DIR, "static"),
+    '/opt/socialtune/socialtune/socialtune/static/',
+)
