@@ -125,3 +125,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = '/opt/socialtune/socialtune/socialtune/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    '/opt/socialtune/socialtune/socialtune/static/',
+]
